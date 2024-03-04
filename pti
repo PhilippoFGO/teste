@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philippo CG - Personal Chef</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccff00; /* Altere para a cor desejada */
+        }
+
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .about, .services, .benefits, .contact {
+            padding: 20px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Philippo CG</h1>
+        <p>Consultoria Gastronômica</p>
+    </header>
+
+    <section class="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos especialistas em proporcionar experiências gastronômicas únicas para os seus eventos. Nossa paixão pela culinária italiana nos permite criar pratos deliciosos e sofisticados que encantam os paladares mais exigentes.</p>
+    </section>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <ul>
+            <li>Cardápio personalizado de acordo com suas preferências e restrições alimentares.</li>
+            <li>Preparação de pratos frescos e saborosos diretamente na sua casa ou local do evento.</li>
+            <li>Serviço completo de buffet, incluindo entrada, prato principal, sobremesa e bebidas.</li>
+            <li>Experiência gastronômica exclusiva e intimista para você e seus convidados.</li>
+        </ul>
+    </section>
+
+    <section class="benefits">
+        <h2>Vantagens e Benefícios</h2>
+        <ul>
+            <li>Experiência gastronômica personalizada e exclusiva.</li>
+            <li>Menu elaborado com ingredientes frescos e de alta qualidade.</li>
+            <li>Atendimento personalizado e atencioso durante todo o evento.</li>
+            <li>Praticidade e comodidade, sem se preocupar com a preparação e limpeza.</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Seu nome" required>
+            <input type="email" name="email" placeholder="Seu e-mail" required>
+            <input type="text" name="phone" placeholder="Seu telefone">
+            <textarea name="message" placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Philippo CG - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
